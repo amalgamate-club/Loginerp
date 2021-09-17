@@ -12,7 +12,6 @@ class userInterface extends JFrame
         JPanel panel1 = new JPanel(); 
         JPanel panel2 = new JPanel();
         JLabel label = new JLabel(); //created label (text)
-        
 
         //code for Label
         label.setText("To show button works");

@@ -18,7 +18,7 @@ public class buttons extends JFrame implements ActionListener
 
         btn1.setBounds(350, 150, 100, 100);
         btn1.setText("Don't Click");
-        btn.addActionListener(this);
+        btn1.addActionListener(this);
     }
 
     @Override
