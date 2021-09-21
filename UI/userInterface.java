@@ -17,7 +17,7 @@ class userInterface extends JFrame
         label.setText("To show button works");
         label.setFont(new Font("Comic Sans MS", Font.PLAIN, 20));
         label.setBounds(30, 50, 250, 200);
-        label.setForeground(Color.BLACK);
+        label.setForeground(Color.black);
         label.setVisible(true);
 
 

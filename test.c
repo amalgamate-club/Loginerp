@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 #include <string.h>
-#include <conio.h>
 
 #define LEN 150
 int n=1;
