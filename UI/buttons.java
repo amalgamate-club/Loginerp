@@ -7,6 +7,7 @@ public class buttons extends JFrame implements ActionListener
     JButton btn;
     JButton btn1;
 
+
     buttons()
     {
         btn = new JButton();
@@ -27,7 +28,6 @@ public class buttons extends JFrame implements ActionListener
         if(e.getSource()==btn)
         {
             System.out.println("Harini i did offffffff");
-        }    
-        
+        }
     }
 }
