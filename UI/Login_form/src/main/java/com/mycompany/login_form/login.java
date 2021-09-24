@@ -306,7 +306,7 @@ public class login extends javax.swing.JFrame {
             { 
                 JOptionPane.showMessageDialog(null,  "Login Unsuccessful !", "AIT Student Library Login", JOptionPane.PLAIN_MESSAGE);
                 USN.setText("");
-                Thread.sleep(3000);
+             
             }
     }//GEN-LAST:event_USNActionPerformed
 
