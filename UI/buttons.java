@@ -29,5 +29,9 @@ public class buttons extends JFrame implements ActionListener
         {
             System.out.println("Harini i did offffffff");
         }
+        else if(e.getSource()==btn1)
+        {
+            JOptionPane.showMessageDialog(null, "I said don't click! How hard is it to understand?", "WTF BRO?!", JOptionPane.PLAIN_MESSAGE);
+        }
     }
 }
