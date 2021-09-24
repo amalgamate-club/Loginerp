@@ -38,10 +38,10 @@ class userInterface extends JFrame
         frame.setTitle("Harini Akka wassup?"); //Frame title.
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); //Makes sure app closes and not suspended.
         frame.setSize(500, 500); //size of Frame.
-        frame.setVisible(true); // make frame visible.
         frame.setLayout(null);
         frame.add(panel);
         frame.add(panel1);
         frame.add(panel2);
+        frame.setVisible(true); // make frame visible.
     }
 }

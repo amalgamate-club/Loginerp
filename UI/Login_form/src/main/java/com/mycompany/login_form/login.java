@@ -86,10 +86,12 @@ public class login extends javax.swing.JFrame {
 
         jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sreenidhi\\Downloads\\atia 50.jpg")); // NOI18N
         jLabel6.setText("jLabel3");
+        ImageIcon img = new ImageIcon("ait_logo_red.png");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("AIT Student Library Login");
         setResizable(false);
+        setIconImage(img.getImage());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -313,6 +315,8 @@ public class login extends javax.swing.JFrame {
                 new login().setVisible(true);
             }
         });
+
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
